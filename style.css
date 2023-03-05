@@ -129,7 +129,7 @@ hr.dot{
     border-left: solid 30px transparent;
     border-right: solid 30px #fff;
   }
-  @media(max-width:1300px){
+  @media(max-width:800px){
     body{
         background-image: url(images/bg-mobile.png);
         background-position: bottom;
