@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom -30% right;
+    width: minmax(auto, 1440px);
+    background-color: hsl(229, 57%, 11%);
+    color: #fff;
+}
+main.fylo{
+    display: flex;
+    gap: 2rem;
+    width: auto;
+    margin: 1rem;
+}
+.first{
+    background-color: hsl(228, 56%, 26%);
+    padding: 2.5rem;
+    padding-right: 8rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 6rem;
+}
+.second{
+    background-color: hsl(228, 56%, 26%);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    height: 150px;
+    display: grid;
+    align-self: end;
+    width: 80vh;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+.icons item{
+    display: flex;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 50px;
+    padding: 1rem;
+    justify-content: center;
+}
+.left-sec {
+    position: absolute;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    width: fit-content;
+    padding: 0.7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: -2.8rem;
+    margin-left: 23rem;
+}
+.left-sec h3{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: hsl(229, 7%, 55%);
+    text-transform: uppercase;
+}
+.left-sec h2{
+    font-size: 2.5rem;
+    color: hsl(229, 57%, 11%);
+    font-weight: 700;
+    padding-right: 0.5rem;
+}
+span.digits{
+    font-weight: 700;
+}
+h1{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.volume{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    color: hsl(243, 100%, 93%);
+}
+hr.back{
+    border: 10px solid hsl(229, 51%, 19%);
+    border-radius: 1rem;
+    width: 100%;
+}
+hr.front{
+    border: 3px solid hsl(229, 51%, 19%);
+    background-image: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%)) ;
+    height: 20px;
+    border-radius: 1rem;
+    margin-top: -1.2rem;
+    width: 75%;
+}
+hr.dot{
+    border: 6px dotted;
+    width: 1%;
+    border-radius: 1rem;
+    margin-top: -1rem;
+    margin-left: 22.7rem;
+}
+.triangle {
+    position: absolute;
+    margin-top: 3.3rem;
+    margin-left: 84px;
+    border-bottom: solid 30px transparent;
+    border-top: solid 30px transparent;
+    border-left: solid 30px transparent;
+    border-right: solid 30px #fff;
+  }
