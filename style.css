@@ -15,9 +15,9 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom -30% right;
-    width: minmax(auto, 1440px);
     background-color: hsl(229, 57%, 11%);
     color: #fff;
+    width: auto;
 }
 main.fylo{
     display: flex;
@@ -33,6 +33,7 @@ main.fylo{
     border-bottom-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 6rem;
+    width: auto;
 }
 .second{
     background-color: hsl(228, 56%, 26%);
@@ -63,7 +64,7 @@ main.fylo{
     display: flex;
     background-color: #fff;
     align-items: center;
-    width: fit-content;
+    width: auto;
     padding: 0.7rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -113,11 +114,12 @@ hr.front{
 }
 hr.dot{
     border: 6px dotted;
-    width: 1%;
     border-radius: 1rem;
     margin-top: -1rem;
     margin-left: 22.7rem;
+    width: 1%;
 }
+
 .triangle {
     position: absolute;
     margin-top: 3.3rem;
@@ -126,4 +128,40 @@ hr.dot{
     border-top: solid 30px transparent;
     border-left: solid 30px transparent;
     border-right: solid 30px #fff;
+  }
+  @media(max-width:1440px){
+    body{
+        background-image: url(images/bg-mobile.png);
+        background-position: bottom;
+        background-size: none;
+        width: auto;
+        margin: 0 auto;
+    }
+    main.fylo{
+        display: grid;
+        width: auto;
+        align-self: center;
+    }
+    .first{
+        width: auto;
+    }
+    .second{
+        width: auto;
+        height: 170px;
+        text-align: center;
+    }
+    .left-sec {
+        margin-top: 0;
+        margin-left: 0;
+        justify-self: center;
+        margin-top: 8.5rem;
+        width: auto;
+    }
+    hr.dot{
+        margin-left: 12.4rem;
+    }
+    .triangle{
+        display: none;
+    }
+   
   }
